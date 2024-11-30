@@ -69,7 +69,7 @@
 
 }
 .text2{
-    color: y#fdf001 ;
+    color: #fdf001 ;
     font-size:48px;
     font-family:  "Nunito", sans-serif;;
     padding-top: 20px;
@@ -443,7 +443,8 @@ select{
    padding: 15px 25px 15px 25px;
    border-radius: 25px;
    font-family: "Nunito", sans-serif;
-   
+   position: relative;
+   left: -10px;
 }
 .btn4{
   margin-top: 60px;
@@ -571,11 +572,57 @@ select{
    
 }
 .box6{
-   
+
     border-radius: 15px;
     overflow: hidden;
 }
     
+.img1{
+   
+    background: url(./picture/pic13.jpg),rgba(0, 0, 0, 0.651);
+    height:470px ;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.box7{
+ 
+ 
+}
+.text31{
+    font-size: 27px;
+    font-family: "Nunito", sans-serif;;
+    color: white;
+    font-weight: 550;
+    padding: 0px 30px 0px 30px;
+}
+
+.text32{
+    color: rgba(255, 255, 255, .7);
+     font-family: "Open", sans-serif;; ;
+     /* padding-top: 30px; */
+     font-size: 18px;
+     padding: 30px 30px 10px 30px;
+}
+
+.text33{
+    color: rgba(255, 255, 255, .7);
+    font-family: "Open", sans-serif;; ;
+    padding: 30px 30px 10px 30px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.text34{
+    color: rgba(255, 255, 255, .7);
+    font-family: "Open", sans-serif;; ;
+    padding: 30px 30px 10px 30px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
 
 /* height-padding */
 .h-60{
@@ -608,4 +655,11 @@ select{
 }
 .pr-40{
     padding-right: 50px;
+}
+.mr-80{
+    margin-right: 100px;
+}
+
+.ml-20{
+    margin-left: 20px;
 }
