@@ -160,7 +160,6 @@ select{
    position: relative;
    z-index: 1;
    overflow: hidden;
-
    padding: 30px;
 }
 
@@ -279,6 +278,66 @@ select{
 
 }
 
+
+.box9{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box9 img{
+    width: 400px;
+}
+
+.text37{
+    font-family:"Open", sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    background-color: #f5f6f6;
+}
+.fa-calendar-days{
+    padding-left: 150px;
+    padding-top: 25px;
+    
+}
+.fa-user{
+    padding-top: 25px;
+;
+}
+.text38{
+    font-family:"Open", sans-serif;
+    font-size: 23px;
+    font-weight: 550;
+    padding-top: 20px;
+}
+.text37 p{
+    color: gray;
+    font-size: 17px;
+    padding: 15px 20px 30px 5px;
+}
+
+.text39{
+    background-color: #fdf001;
+    padding: 18px 0px 18px 35px;
+    
+}
+.text39 a{
+    text-decoration: none;
+    color: black;
+    padding-right: 120px;
+    font-family:"Open", sans-serif; 
+}
+
+
+.text40{
+    font-size: 15px;
+    font-family:"Open", sans-serif; 
+    display: inline-block;
+   
+}
+
+
+
+
+
 .text17{
     font-family:  "Open", sans-serif;;
     font-weight: 550;
@@ -329,8 +388,8 @@ select{
    border-radius: 15px;
    position: relative ;
    z-index: 1;
- overflow: hidden;
- width: 400px;
+   overflow: hidden;
+    width: 400px;
 }
 
 .box3::before{
@@ -571,26 +630,71 @@ select{
     align-items: center;
    
 }
-.box6{
 
+
+
+
+.box10 p{
+    color: gray;
+    font-family: "Open", sans-serif;
+    font-size: 21px;
+    background-color: #f5f6f6;
+    border-radius: 10px;
+    padding: 30px 0px 30px 20px;
+    line-height: 30px;
+}
+.img7 {
+    border-radius: 50%;
+    padding: 40px 0px 0px 40px;
+    padding-right: 10px;
+}
+.img7 img{
+    border-radius: 50%;
+}
+.text41{
+    font-family: "Open", sans-serif;
+   text-align: center;
+  padding: 50px 0px 0px 10px;
+font-size: 24px !important;
+font-weight: 550 !important;
+  
+}
+
+.text42{
+   color: gray;
+font-size: 17px;
+font-weight: 100;
+padding-right: 50px;
+padding-top: 5px;
+
+}
+
+.fa-star{
+    color:#fdf001;
+    font-size: 15px;
+}
+
+.text43{
+    padding-right: 25px;
+}
+
+.box6{
+border: 1px solid rgba(0, 0, 0, 0.13);
     border-radius: 15px;
     overflow: hidden;
 }
     
-.img1{
+.img5{
    
     background: url(./picture/pic13.jpg),rgba(0, 0, 0, 0.651);
-    height:470px ;
+    height:450px ;
     background-blend-mode: overlay;
     background-size: cover;
     background-position: bottom;
 
 }
 
-.box7{
- 
- 
-}
+
 .text31{
     font-size: 27px;
     font-family: "Nunito", sans-serif;;
@@ -622,6 +726,76 @@ select{
     line-height: 35px;
     font-size: 20px;
 }
+
+.border-bottom{
+    border-bottom: 1px solid  rgba(255, 255, 255, .7);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 17px;
+   
+}
+.hover-1:hover{
+    color: #fdf001b2;
+}
+.container-fluid2{
+    background-color: #111;
+    height: 100px;
+}
+
+.text35{
+    color: #fdf001 ;
+    font-size:48px;
+    font-family:  "Nunito", sans-serif;;
+    padding-top: 20px;
+    font-weight: 750;
+
+}
+.text36{
+    color: white;
+    font-size:3rem;
+    font-family:  "Nunito", sans-serif;;
+    padding-top: 20px;
+    font-weight: 750;
+}
+
+
+.spi-2{
+    color: #fdf001 ;
+    font-size: 40px;
+   padding: 28px 0px 0px 10px;
+}
+.fa-twitter{
+    font-size:17px;
+    background-color: #fdf001;
+    padding: 15px ;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.fa-facebook{
+    font-size:17px;
+    background-color: #fdf001;
+    padding: 15px ;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.fa-youtube{
+    font-size:17px;
+    background-color: #fdf001;
+    padding: 15px ;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.fa-linkedin{
+    font-size:17px;
+    background-color: #fdf001;
+    padding: 15px ;
+    border-radius: 50%;
+    margin-top: 20px;
+}  
+
 
 
 /* height-padding */
