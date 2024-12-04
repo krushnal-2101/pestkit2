@@ -52,6 +52,9 @@
      .input1{
       display: none ;
     }
+    .hide{
+      display: none;
+    }
 }
 
 @media(max-width:991px){
@@ -85,6 +88,9 @@
      }
      .w-sm-1{
         width: 100%;
+     }
+     .hide-2{
+      display: none;
      }
 }
 
