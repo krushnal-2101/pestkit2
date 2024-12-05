@@ -70,9 +70,7 @@
      .w-md-1{
         width: 100%;
      }
-     .menu a{
-      display: none;
-     }
+   
    
 }
 
@@ -90,6 +88,9 @@
         width: 100%;
      }
      .hide-2{
+      display: none;
+     }
+     .menu a{
       display: none;
      }
 }

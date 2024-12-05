@@ -64,8 +64,8 @@
 }
 .ico{
     font-size:21px;
-    padding-left: 18px;
-    padding-top: 50px
+
+   padding-left: 30px;
 }
 .ri-search-fill{
     position: relative;
@@ -401,6 +401,11 @@ select{
    overflow: hidden;
     width: 400px;
 }
+.box3:hover{
+    background-color: yellow;
+    padding: 30px 50px 30px 50px;
+    
+}
 
 .box3::before{
     content: "";
@@ -448,15 +453,15 @@ select{
     font-size: 21px;
     font-family: "Nunito", sans-serif;;
     padding-left: 45px;
-    padding-top: 170px;
+  
 }
 
 .text20 input{
-  border-radius: 30px;
-  padding: 17px 300px 17px 20px;
+  border-radius: 50px 0px 20px 50px;
+  padding: 17px 250px 17px 20px;
   font-size: 18px;
   
-  margin-bottom: 50px;
+ 
 }
 
 
@@ -504,20 +509,52 @@ select{
     color: red;
 }
 .btn4 a{
-   text-decoration: none;
+   text-decoration: none ;
    font-size: 17px;
    background-color:#fdf001 ;
    color: black;
-   padding: 15px 25px 15px 25px;
-   border-radius: 25px;
+   padding: 18px 30px 18px 28px;
+   border-radius: 0px 50px 50px 0px ;
    font-family: "Nunito", sans-serif;
-   position: relative;
-   left: -10px;
+   position: relative !important;
+   left: 486px !important;
+   top: -103px !important   ;
 }
+
 .btn4{
   margin-top: 60px;
   margin-bottom: 40px;
 }
+
+
+.btn10 a{
+    text-decoration: none ;
+    font-size: 17px;
+    background-color:#fdf001 ;
+    color: black;
+    padding: 18px 30px 18px 28px;
+    border-radius: 50px;
+    font-family: "Nunito", sans-serif;
+}
+
+.btn10{
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+.btn11 a{
+    text-decoration: none ;
+    font-size: 17px;
+    background-color:black ;
+    color:#fdf001;
+    padding: 18px 30px 18px 28px;
+    border-radius: 50px;
+    font-family: "Nunito", sans-serif;
+}
+
+.btn11{
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
 .bg6{
     background-color: #f5f6f6;
 }
@@ -749,6 +786,7 @@ border: 1px solid rgba(0, 0, 0, 0.13);
 .container-fluid2{
     background-color: #111;
     padding: 10px 0px 25px 0px;
+    
    
 }
 
@@ -808,6 +846,57 @@ border: 1px solid rgba(0, 0, 0, 0.13);
 
 
 
+
+
+
+
+
+h4{
+    color: #f5f6f6;
+}
+.d-flex10{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.sel1{
+    position: absolute;
+  
+    height: 100%;
+    
+    top: -120px;
+    left: 15%;
+    justify-content: center;
+    text-align: start;
+}
+.sel1 h4{
+    font-size: 28px;
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 30px;
+}
+.sel1 h1{
+    font-size: 80px;
+    font-family: "Nunito", sans-serif;
+    color: #f5f6f6;
+    font-weight: 800;
+    
+} 
+.rm a{
+    text-decoration: none;
+    color: black;
+    background-color: #fdf001;
+    font-size: 20px;
+    font-family: "Open", sans-serif;
+    padding: 20px 50px;
+    border-radius:30px;
+  
+
+}
+.rm{
+    margin-top: 40px;
+}
+
+
 /* height-padding */
 .h-60{
     height: 60px;
@@ -849,4 +938,196 @@ border: 1px solid rgba(0, 0, 0, 0.13);
 }
 .p-50{
     padding: 70px 0px 70px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ .blog .slick-next {
+    
+    background-color: #fdf001 !important;
+}
+ .blog .slick-next {
+    padding: 15px 60px 35px 30px!important;
+    background-color: #fdf001 !important;
+    border-radius: 50px 15px 15px 50px !important;
+    position: absolute !important
+    ;
+    right: 20px !important;
+    top:-15px !important;
+    color: #111 !important;
+}
+.slick-next::before {
+   
+    color: #111 !important;
+}
+ .blog .slick-prev {
+    content: "";
+    font-size: 50px;
+    background-color: #fdf001 !important;
+}
+ .blog .slick-prev {
+    padding: 15px 60px 35px 30px!important;
+    background-color: #fdf001 !important;
+    border-radius: 15px 50px 50px 15px !important;
+    position: absolute !important
+    ;
+    left: 20px !important;
+    top:-15px !important;
+}
+ .blog .slick-prev::before {
+   content: -;
+    color: #111 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .testi .slick-dots{
+    color: #111;
+    font-size: 30px;
+}
+
+ .testi .slick-next {
+    content: "";
+    
+    background-color: #fdf001 !important;
+}
+ .testi .slick-next {
+    padding: 15px 60px 35px 30px!important;
+    background-color: #fdf001 !important;
+    border-radius: 0px 50px 50px 0px !important;
+    position: absolute !important
+    ;
+    right: -70px !important;
+    top: 100px !important;
+    color: #111 !important;
+}
+ .testi .slick-next::before {
+   
+    color: #111 !important;
+}
+ .testi .slick-prev {
+    content: "";
+    font-size: 50px;
+    background-color: #fdf001 !important;
+}
+ .testi .slick-prev {
+    padding: 15px 60px 35px 30px!important;
+    background-color: #fdf001 !important;
+    border-radius: 50px 0px 0px 50px !important;
+    position: absolute !important
+    ;
+    left: -70px !important;
+    top: 100px !important;
+}
+ .testi .slick-prev::before {
+   
+    color: #111 !important;
+}
+
+
+
+
+.slick-dots button{
+    color:#fdf001;  
+    font-size: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bigslide .slick-prev{
+    top: 50%;
+    left: 0px;
+    background-color:#fdf001 !important;
+    z-index: 4;
+    width: 80px;
+    height: 60px;
+    border-radius: 0px 50px 50px 0px;
+}
+.bigslide .slick-next{
+    top: 50%;
+    right: 0px;
+    background-color:#fdf001 !important;
+    z-index: 4;
+    width: 80px;
+    height: 60px;
+    border-radius: 50px 0px 0px 50px;
+}
+.bigslide .slick-next::before{
+    color: white !important;
+}
+
+.blend1{
+   position: absolute;
+
+   height: 100%;
+   width: 100%;
+   background-blend-mode:overlay ;
+   background:rgba(0, 0, 0, .7);
+   
+}
+.blend2{
+    position: absolute;
+   height: 100%;
+   width: 100%;
+   background-blend-mode:overlay ;
+   background:rgba(0, 0, 0, .7);
+}
+.bigslide1{
+    position: relative;
+
+}
+.fa-bars{
+    color: #f5f6f6;
+  font-size: 22px;
+  border: 2px solid black;
+  padding:10px;
+}
+.bars{
+    position: absolute;
+    top: 200px;
+    right: 0;
+
+}
+.profession{
+    position: relative;
 }
