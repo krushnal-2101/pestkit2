@@ -101,12 +101,16 @@
 .text5{
     color: white;
 }
-.text4{
+.text4 {
     color: white;
     text-decoration: none;
     padding:0PX 25px 30px 20px;
     font-family: "Open", sans-serif;;
 }
+.text4:hover{
+  color: #fdf001;
+}
+
 .yel{
     color: #fdf001 ;
 }
